@@ -1,0 +1,21 @@
+{
+  "name": "passtatoo",
+  "version": "1.0.0",
+  "description": "A simple app that helps you to remember passwords.",
+  "main": "passTatoo.js",
+  "scripts": {
+    "test": "node passTatoo.js"
+  },
+  "keywords": [
+    "passwords",
+    "remember",
+    "help",
+    "credential",
+    "storage"
+  ],
+  "author": "dlag",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

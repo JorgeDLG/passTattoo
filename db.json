@@ -1,0 +1,9 @@
+{
+  "credents": [{
+    "user": "foo",
+    "pass": "bar"
+  },{
+    "user": "foo2",
+    "pass": "bar2"
+  }]
+}
