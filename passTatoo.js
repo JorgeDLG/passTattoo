@@ -18,7 +18,6 @@ while (!exit) {
 
   switch (Number(option)) {
     case 0: //test
-      console.log("Select one to test:"); 
       test();
       break;
     case 1: //add
@@ -52,13 +51,18 @@ function credsSelector() {
 
   if(cred < 0 || cred > i) {
     console.log("Credential not found");
+    return null;
   } else{
     return cred;
   }
 }
 function test() {
-  credsSelector();
+  console.log("Select one to test:"); 
+  let credSelected = credsSelector();
 
+  if(credSelected != null){
+    console.log("Credential Selected: ", credSelected);
+  }
   
 }
 function Menu() {
